@@ -7,8 +7,8 @@ const Home = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Ioshua Noia</Text>
-      <Image source={require('../assets/image.png')} style={styles.image} />
+      <Image source={require('../assets/image.jpg')} style={styles.image} />
+      <Text style={styles.text}>Adriel Fernando</Text>
       <Button
         title="Meu Currículo"
         onPress={() => navigation.navigate('Curriculo')}
@@ -30,8 +30,12 @@ const styles = StyleSheet.create
         {
             width: 200,
             height: 200,
-            margin: 20,
+            margin: 10,
             borderRadius: 100
+        },
+        text:
+        {
+            margin: 20,
         },
     }
 );
